@@ -10,5 +10,5 @@ func main() {
 	var goos string = runtime.GOOS
 	fmt.Printf("The operating system is: %s\n", goos)
 	path := os.Getenv("PATH")
-	fmt.Printf("Path is %s\n", &path)
+	fmt.Printf("Path is %p\n", &path)
 }
